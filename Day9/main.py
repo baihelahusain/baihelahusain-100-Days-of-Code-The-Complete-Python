@@ -28,7 +28,7 @@ while True:
     if user == 'no':
         winner = ''
         highest_bid = 0
-        for bides in dick:
+        for bides in dict:
             bid_amnt = dict[bides]
             if bid_amnt>=highest_bid:
                 highest_bid=bid_amnt
