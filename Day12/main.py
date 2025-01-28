@@ -1,6 +1,6 @@
 import art
 import random
-
+print(art.logo)
 a=list(range(1,101))
 number = random.choice(a)
 
