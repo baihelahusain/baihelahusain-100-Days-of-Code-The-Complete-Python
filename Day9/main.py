@@ -17,9 +17,9 @@
 # print(dick)
 import art
 print(art.logo)
-dick = {}
+dict = {}
 def auction(names,bider):
-    dick[name] = bider
+    dict[name] = bider
 while True:
     name = input("")
     bid = int(input(""))
@@ -29,11 +29,11 @@ while True:
         winner = ''
         highest_bid = 0
         for bides in dick:
-            bid_amnt = dick[bides]
+            bid_amnt = dict[bides]
             if bid_amnt>=highest_bid:
                 highest_bid=bid_amnt
                 winner = bides
         print(f"the maximum bid is {winner}")
         break
-print(dick)
+print(dict)
 
